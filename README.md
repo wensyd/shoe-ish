@@ -28,7 +28,7 @@ List your routes in a table
 | /shoes/new | get | return form to create a new shoe (new)|
 | / | post | get post request to /shoes, create new and redirect to index (create)|
 | /shoes/:id/edit | get | edit a particular shoe (edit)|
-| /shoes/:id | put | put request to /visions/:id (update)|
+| /shoes/:id | put | put request to /shoes/:id (update)|
 | /shoes/:id | delete | deletes a particular shoe (destroy)|
 
 ## User Stories
