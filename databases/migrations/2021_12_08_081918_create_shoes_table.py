@@ -13,7 +13,7 @@ class CreateShoesTable(Migration):
             table.string("image")
             table.string("title")
             table.string("description")
-            table.decimal("price")
+            table.integer("price")
             table.integer("size")
             table.boolean("purchased").default(False)
             table.timestamps()
