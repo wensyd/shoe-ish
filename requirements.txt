@@ -16,10 +16,10 @@ idna==3.3
 inflection==0.3.1
 Jinja2==2.11.3
 MarkupSafe==2.0.1
-masonite==3.0.13
+masonite==3.0.12
 masonite-dot==0.0.5
 masonite-logging==1.0.1
-masonite-orm==1.0.63
+masonite-orm==1.0.60
 masonite-validation==3.0.14
 passlib==1.7.4
 pastel==0.2.1
