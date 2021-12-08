@@ -11,10 +11,12 @@ Shoe-ish is a full-stack application created using a masonite backend and react 
 {
     table.increments("id")
     table.timestamps()
-    table.string("title")
     table.string("image")
+    table.string("title")
     table.string("description")
-    table.Boolean("purchased")
+    table.decimal("price")
+    table.integer("size")
+    table.boolean("purchased")
 }
 
 ## Route Table
