@@ -27,7 +27,7 @@ class ShoeController(Controller):
         price = self.request.input("price")
         size = self.request.input("size")
         purchased = self.request.input("purchased")
-        shoe = Shoe.create({"image": image, "title": title, "description": description, "price": price,"size": size})
+        shoe = Shoe.create({"image": image, "title": title, "description": description, "price": price,"size": size, "purchased": purchased})
         return shoe
 
 
@@ -39,7 +39,7 @@ class ShoeController(Controller):
         size = self.request.input("size")
         purchased = self.request.input("purchased")
         id = self.request.param("id")
-        Shoe.where("id", id).update({"image": image, "title": title, "description": description, "price": price,"size": size})
+        Shoe.where("id", id).update({"image": image, "title": title, "description": description, "price": price,"size": size, "purchased": purchased})
         return Shoe.where("id", id).get()
 
 
